@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/buzzItemLayoutRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvBuzzImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:id="@+id/ivBuzzImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/movies" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/ivBuzzBookmarkIcon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignTop="@id/cvBuzzImage"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/buzz_bookmark_icon" />
+
+    <TextView
+        android:id="@+id/tvBuzzTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tvBuzzTime"
+        android:layout_alignTop="@id/cvBuzzImage"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toStartOf="@+id/ivBuzzBookmarkIcon"
+        android:layout_toEndOf="@+id/cvBuzzImage"
+        android:layout_toRightOf="@id/cvBuzzImage"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvBuzzTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/cvBuzzImage"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/cvBuzzImage"
+        android:hint="1 Day ago"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/ivBuzzShareIcon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignRight="@id/ivBuzzBookmarkIcon"
+        android:layout_alignBottom="@id/cvBuzzImage"
+        android:scaleType="centerCrop"
+        android:src="@drawable/buzz_share_icon" />
+
+    <ImageView
+        android:id="@+id/ivBuzzHeartIcon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@id/cvBuzzImage"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@id/ivBuzzShareIcon"
+        android:src="@drawable/buzz_heart_icon" />
+
+</RelativeLayout>

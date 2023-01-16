@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">BookMyShow</string>
+    <string name="facebook_app_id">1008922243273356</string>
+    <string name="fb_login_protocol_scheme">fb1008922243273356</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="it_all_starts_here">It All Starts Here</string>
+    <string name="title_activity_streaming_see_all">StreamingSeeAllActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="about">FrontRow Presents Daily Online Open Mic at 8 PM and 10 PM. Rest schedule is available on Front row Comedy Community Instagram Page.</string>
+    <string name="termsConditions">
+        1. Tickets once booked cannot be exchanged or refunded<br />
+
+        2. An Internet handling fee per ticket may be levied. Please check the total amount before payment<br />
+
+        3. Recording or uploading of this stream is not permitted. Strict action will be taken against those who break these guidelines.<br />
+
+        4. The time and date of the show may vary due to internet connectivity issues. In this case, the artist will share the revised date and/or timing at the earliest<br />
+
+        5. There may be interruptions in the stream due to internet connectivity issue. We suggest you to have good speed internet connectivity<br />
+
+        6. These terms and conditions are subject to change from time to time at the discretion of the organizer
+
+</string>
+
+    <string name="ticketTXT1">We know printed tickets have their own charm but you won\'t be needing those here.</string>
+    <string name="ticket2">This event will take place in an online/digital platform and a physical ticket is not required.</string>
+    <string name="spinner_title">Select State</string>
+
+    <string name="lorem_ipsum2">Amongst multiple heinous airplane hijacks, India was made to face another such challenge in 1984. BellBottom, a RAW agent played by Akshay Kumar sees through the plan and thus, begins India`s first covert operation.<br />
+        A story inspired on true events, led by BellBottom, that went on to create one of the most defining moments of the country.</string>
+
+</resources>
